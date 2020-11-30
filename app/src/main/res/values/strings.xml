@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BOSCO REACH OUT</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="address">Dr BK KAkati Road, Ulubari, Guwahati,\nAssam 781007</string>
+    <string name="bro">Bosco Reach Out (BRO), established in 1983, is a non-profit, non-political and non-religious organization. BRO is the official socio development wing of the Salesian Province of Guwahati, North East India and it is registered under the Societies Registration Act (SR/BRO 226/83 of 1983).  BRO is committed to the integral and holistic development of the human person and is rooted in the Salesian charisma within the church and in the society.
+</string>
+    <string name="vision">Bosco Reach Out visualizes a self-sustaining, self-reliant and dignified community where people live responsibly, striving for a just, equal and harmonious society.
+</string>
+    <string name="mission">BRO seeks to achieve integral development through empowerment of people by enabling them to build People’s Organizations and enhancing their capacities to utilize their resources optimally and have their rightful place in the society.
+</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.NewsDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.github.demono.AutoScrollViewPager
+                    android:id="@+id/vp_NewsImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/tv_newsdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/source_serif_pro_semi_bold"
+                    android:gravity="end|center"
+                    android:paddingRight="10dp"
+                    android:text="date"
+                    android:textAppearance="@style/CustomTextAppearance"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_newstitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/source_serif_pro_semi_bold"
+                    android:gravity="center|start"
+                    android:paddingLeft="10sp"
+                    android:paddingRight="10sp"
+                    android:text="Title"
+                    android:textAppearance="@style/CustomTextAppearance"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_newsdescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amiri_regular"
+                    android:gravity="center|start"
+                    android:paddingLeft="10sp"
+                    android:paddingRight="10sp"
+                    android:paddingBottom="10sp"
+                    android:text="Description"
+                    android:textAppearance="@style/CustomTextAppearance"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/share_bg"
+                    android:fontFamily="@font/source_serif_pro_semi_bold"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="SHARE"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+</LinearLayout>

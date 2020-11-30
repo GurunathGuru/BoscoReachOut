@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.AboutUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_serif_pro_semi_bold"
+            android:paddingLeft="10dp"
+            android:paddingEnd="10sp"
+            android:text="BOSCO REACH OUT"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiri_regular"
+            android:paddingLeft="10dp"
+            android:paddingEnd="10sp"
+            android:text="@string/bro"
+            android:textAppearance="@style/CustomTextAppearance"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_serif_pro_semi_bold"
+            android:paddingLeft="10dp"
+            android:paddingEnd="10sp"
+            android:text="VISION"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiri_regular"
+            android:gravity="top|start"
+            android:paddingLeft="10dp"
+            android:paddingEnd="10sp"
+            android:text="@string/vision"
+            android:textAppearance="@style/CustomTextAppearance"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_serif_pro_semi_bold"
+            android:gravity="bottom|start"
+            android:paddingLeft="10dp"
+            android:paddingEnd="10sp"
+            android:text="MISSION"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiri_regular"
+            android:gravity="top|start"
+            android:paddingLeft="10dp"
+            android:paddingEnd="10sp"
+            android:text="@string/mission"
+            android:textAppearance="@style/CustomTextAppearance"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</LinearLayout>
